@@ -1,0 +1,318 @@
+@media (max-width:960px){
+   .largeView{
+       display:none;
+   }
+ .topNav{
+    background-image: url(../img/nav-bg-2.png);
+    background-position: center;
+    display:flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+     i{
+         color: black;
+         border: 1px black solid;
+         border-radius: 10%;
+         padding:3px;
+     }
+     img{
+        width:80%;
+    }
+} 
+
+.navItems{
+    a{
+        display:block;
+        text-align:center;
+        background-color: #36b397;
+        font-family: Almoni;
+        text-decoration: none;
+        font-size:1.5rem;
+        color: #413000;
+        padding:5px;
+        border-bottom: 1px solid #3f5f58;
+        &:hover{
+            color:#013526;
+        }
+
+    }
+
+}
+ 
+
+.mobileHeader{
+    text-align: center;
+background-color: #cbcbcb;
+background-image: url(../img/git-stripe.png);
+background-size: contain;
+background-repeat: no-repeat;
+padding-bottom:10px;
+    .picWrapper{
+        padding-top:15px;
+    }
+    img{
+       width:50%;
+    }
+    .headerMid{
+        padding:5px;
+        margin-top:10px;
+        box-sizing: border-box;
+
+    }
+    .headerMiniTitle{
+        padding:0 10px;
+        font-size:2rem;
+        display:inline;
+    }
+    .headerBtm {
+        font-size:2rem;
+        padding:10px 0;
+        p{
+        display:inline;
+    }
+
+}
+}
+
+
+    .mobileSubjects{
+        background-color:grey;
+        background-image: url(../img/form-mobile.png);
+        background-size:1400px;
+       background-repeat:no-repeat;
+        font-family: Almoni;
+        padding:20px 0;
+        span{
+            background-color: #e0a64f;
+            font-size:1.5rem;
+            padding:5px 30px;
+            color:white;
+            text-align: center;
+            border-radius:10px;
+        }
+        img{
+            width:80%;
+            padding-top:10px;
+        }
+        
+    }
+
+    .mobileInfo{
+        background-color:#e0a64f;
+        text-align: center;
+        padding:15px 15px;
+        .infoTitle{
+            padding:5px 0 20px;
+            font-size:1.5rem;
+        }
+        .title1{
+            color:white;
+            font-family: Almoni;
+        }
+        .title2{
+            color:white;
+            font-family: AlmoniLight;
+        }
+        .title3{
+            color:white;
+            font-family: AlmoniBold;
+        }
+        font-family: Almoni;      
+        p{
+            display: inline;
+            text-align: center;
+        }   
+    }
+    .cloud{
+        font-family: Almoni,Neutra;
+        list-style-type: none;
+        padding-bottom:15px;
+        li{
+            list-style: none;
+            display:inline;
+            padding:3px;
+        }
+        li:nth-of-type(3n+1){
+            font-size:1.2rem*.5;
+        } 
+        li:nth-of-type(3n+2){
+            font-size:1.8rem*.5;
+        }
+        li:nth-of-type(3n+3){
+            font-size:2.3rem*.5;
+        }
+    }
+    .infoFooter{
+        text-align: center;
+        font-family:Neutra;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        padding-top:15px;
+        color:#f05133;
+       
+        .tags{
+            color:white
+        }
+
+
+    }
+
+    .mobileWhyCome{
+        background-color: lightgray;
+        background-image: url(../img/stripe.png);
+        background-size:600px;;
+        background-repeat: no-repeat;
+      padding:10px 5%;
+            margin:auto;
+            div{
+                margin:15px 0;
+                padding: 10px;
+                font-family: Almoni,Neutra;
+                color:white;
+                text-align: center;
+                line-height: 130%;
+                h2{
+                    font-size:1.2rem;
+                    padding-bottom:10px;
+                }
+            }
+            .box1{
+                font-size:1.5rem;
+            }
+            .box4{
+                font-family: Almoni,Neutra;
+                a{
+                    text-decoration: none;
+                    color:white;
+                    &:hover{
+                        color: #41709c;
+                    }
+                }
+            }
+           
+        }
+    
+      
+        .whyButton{
+            background-color:#e0a64f;
+            padding:5px 10px;
+            margin-bottom:10px;
+            border-radius:10px;
+        }
+       
+    
+    
+    .whyComeBox{
+        background-color: rgba($color: #41709c, $alpha: .8);
+        
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        }
+
+        .mobileRegistration{
+        
+            background-color: #36b397;
+            padding:20px 0;
+            background-image: url(../img/form-mobile.png);
+            background-size:80%;
+           background-repeat:no-repeat;
+            
+            .mobileFormWrapper{
+                form{
+                    text-align:right;
+                    button{
+                        background-color:#e0a64f;
+                        padding:5px 20px;
+                      //  margin-bottom:10px;
+                        border-radius:10px;
+                        color:white;
+                        font-family: Almoni;
+                        font-size:1.2rem;
+                    }
+                }
+                font-family: Almoni;
+                width:80%;
+                text-align:center;
+                background-color:white;
+                border-radius:40px;
+                margin:auto;
+                padding:10px 0;
+                h2{
+                    font-size:1.5rem;
+                }
+              h3{
+                  padding:0 20px;
+                  a{
+                      text-decoration: none;
+                      color: #e0a64f;
+                  }
+              }
+                .nameWrapper:before{
+                    font-family: "Font Awesome 5 Free";
+                     font-weight: 900; 
+                     content: "\f007";
+                     padding-left:10px;
+                   }
+                   .emailWrapper:before{
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900; 
+                    content: "\f1fa";
+                    padding-left:10px; 
+                   }
+                   .phoneWrapper:before{
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900; 
+                    content: "\f095";
+                    padding-left:10px;  
+                   }
+                   .msgWrapper:before{
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900; 
+                    content: "\f044";
+                    padding-left:10px; 
+                   }
+                   .formBlock{
+                       margin:10px;
+                       border-bottom:1px solid grey;
+                       width:70%;
+                       margin:auto;
+                       padding:10px 0;
+                       }
+                   input{
+                       border:none;
+                       font-family:Almoni;
+                   }
+            }
+        }
+
+        .mobileFooter{
+            background-color:#f2f2f2;
+            font-family: Almoni,Neutra;
+            text-align: center;
+            .footerItem1{
+                padding:10px 0;
+            }
+            
+            .footerSocial{
+                border:none;
+                a{
+                    font-size:2rem;
+                    margin: 0 2px;
+                    width:80%;
+                
+                }
+            }
+            .footerMap a{
+                font-size: 2rem;
+              
+            }
+            
+        }
+        .largeView{
+            display:none;
+        }
+
+}

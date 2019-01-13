@@ -1,0 +1,305 @@
+@media(min-width:1200px) {
+    body {
+        background-color: #e2f2ec;
+
+    }
+
+    //////////////   NAV   /////////////
+    nav {
+
+        ul {
+            font-size: 1.5em;
+            width: 300px;
+        }
+
+        .logoWrapper {
+            height: 100px;
+            padding: 9px 0;
+        }
+
+    }
+
+    //////////////   HEADER   /////////////
+    header {
+        width: 1200px;
+        height: 499px;
+        background-size: 1200px;
+        margin: auto;
+
+        .picWrapper {
+            padding-top: 50px;
+        }
+
+
+    }
+
+    .headerMid {
+        margin: 20px 0;
+    }
+
+    .headerMiniTitle {
+        font-size: 3rem;
+        padding: 0 20px;
+    }
+
+    .headerBtm {
+        font-size: 4rem;
+    }
+
+
+    //////////////   SUBJECTS   /////////////
+
+    .subjects {
+        width: 1200px;
+        height: 628px;
+        background-size: 1200px;
+        margin: auto;
+
+        p {
+            font-size: 3rem;
+            padding-top: 45px;
+        }
+
+        img {
+            width: 576px;
+            height: 492px;
+            padding-top: 20px;
+        }
+    }
+
+    //////////////   INFO   /////////////
+
+    .info {
+        width: 1200px;
+        height: 496px;
+        background-size: 1200px;
+        margin: auto;
+
+        //  font-size:1.5rem;
+        .infoTitle {
+            padding-top: 55px;
+
+            p {
+                padding: 2px;
+            }
+        }
+
+        .title1 {
+            margin-right: 120px;
+            font-size: 2.3rem;
+            margin-right: 350px;
+
+        }
+
+        .title2 {
+            font-size: 2.9rem;
+        }
+
+        .title3 {
+            font-size: 2.9rem;
+            padding-top: 50px;
+            box-sizing: content-box;
+
+        }
+
+    }
+
+    .cloudWrapper {
+        width: 700px;
+        margin: auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .cloud {
+
+        li {
+            padding: 8px;
+        }
+
+        li:nth-of-type(3n+1) {
+            font-size: 1.2rem;
+        }
+
+        li:nth-of-type(3n+2) {
+            font-size: 1.8rem;
+        }
+
+        li:nth-of-type(3n+3) {
+            font-size: 2.3rem;
+        }
+    }
+
+    .infoFooter {
+
+        .text {
+            font-size: 1.8rem;
+            padding: 10px;
+        }
+
+        .tags {
+            font-size: 5rem;
+        }
+    }
+
+    //////////////   WHY COME   /////////////
+
+    .whyCome {
+        width: 1200px;
+        height: 758px;
+        background-size: 1200px;
+        margin: auto;
+
+        h1 {
+            font-size: 2em;
+        }
+
+        h2 {
+            padding: 10px
+        }
+
+        .contentWrapper {
+            width: 700px;
+
+            p {
+                line-height: 150%;
+            }
+        }
+
+        .box1 {
+            margin-top: 30px;
+            width: 700px;
+            font-size: 2rem;
+            padding: 20px 0;
+        }
+
+        .box2,
+        .box3 {
+            margin-top: 20px;
+            width: 340px;
+            padding: 15px 30px;
+            box-sizing: border-box;
+            font-size: 1.1rem;
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        .box4 {
+            width: 340px;
+            margin-top: 30px;
+
+            img {
+                width: 340px;
+                height: 90px;
+            }
+        }
+
+        .whyButton {
+            border-radius: 10px 100px / 120px;
+            padding: 10px;
+        }
+    }
+
+    //////////////   REGISTRATION   /////////////
+
+    .registration {
+        width: 1200px;
+        height: 571px;
+        background-size: 1200px;
+        margin: auto;
+    }
+
+    .formWrapper {
+        width: 700px;
+        height: 512px;
+        margin-top: 50px;
+
+        .formRight {
+            width: 406px;
+
+            h2 {
+                font-size: 2rem;
+                margin-top: 20px;
+                margin-bottom: 15px;
+
+            }
+
+            h3 {
+                font-size: 1rem;
+                line-height: 1.5;
+            }
+        }
+
+        .formLeft {
+            width: 294px;
+            align-self: flex-end;
+            margin-bottom: 100px;
+            text-align: center;
+
+        }
+
+        .formBlock {
+            width: 300px;
+            margin: 30px;
+            margin-right: 53px;
+
+        }
+
+        input {
+            font-size: 1rem;
+
+        }
+
+        button {
+            font-family: Almoni;
+            color: white;
+            font-size: 1.5rem;
+            background-color: #e0a64f;
+            border-radius: 10px 100px / 120px;
+            padding: 10px 40px;
+            margin: 10px;
+            margin-bottom: 20px;
+        }
+    }
+
+    //////////////   FOOTER   /////////////
+
+    .footer {
+        width: 1200px;
+        height: 118px;
+        background-size: 1200px;
+        margin: auto;
+    }
+
+    .footerSocial {
+        a {
+            margin: 10px;
+            font-size: 1.5rem;
+
+        }
+
+        padding-bottom:5px;
+    }
+
+    .footerCR {
+        padding-top: 5px;
+    }
+
+    .footerMap {
+        a {
+            font-size: 1.5rem;
+            padding-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.5rem;
+        }
+    }
+
+    .mobileView {
+        display: none;
+    }
+
+}

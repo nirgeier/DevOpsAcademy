@@ -1,0 +1,327 @@
+@font-face {
+    font-family: "Almoni";
+    src: url("../fonts/AlmoniTzarAAA.otf");
+}
+
+@font-face {
+    font-family: "AlmoniLight";
+    src: url("../fonts/AlmoniTzarAAA-Light.otf");
+}
+
+@font-face {
+    font-family: "AlmoniBold";
+    src: url("../fonts/AlmoniTzarAAA-Bold.otf");
+}
+
+@font-face {
+    font-family: "Neutra";
+    src: url("../fonts/Neutra.otf");
+}
+
+body {
+    direction: rtl;
+}
+
+nav {
+    width: 100%;
+    height: 118px;
+    background-image: url(../img/nav-bg-2.png);
+    background-position: center center;
+    margin: auto;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Almoni';
+
+        a {
+            text-decoration: none;
+            color: black;
+
+            &:hover {
+                color: #237361;
+            }
+        }
+    }
+}
+
+header {
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        display: inline;
+    }
+}
+
+.headerMiniTitle {
+    background-color: rgba($color: #FFFFFF, $alpha: .72);
+    color: #f05133;
+    font-family: Almoni;
+}
+
+.headerBtm {
+    font-family: Almoni;
+    color: #413000;
+
+}
+
+.tags {
+    color: #f05133;
+}
+
+.subjects {
+    background-image: url(../img/subjects-bg.png);
+
+    .picWrapper {
+        margin: auto;
+    }
+
+    p {
+        font-family: Almoni;
+        color: white;
+        display: block;
+        margin: auto;
+    }
+
+}
+
+.info {
+    .title1 {
+        color: white;
+        font-family: Almoni;
+    }
+
+    .title2 {
+        color: white;
+        font-family: AlmoniLight;
+    }
+
+    .title3 {
+        color: white;
+        font-family: AlmoniBold;
+    }
+
+    font-family: Almoni;
+    background-image: url(../img/info-bg.png);
+
+    p {
+        display: inline;
+        text-align: center;
+    }
+}
+
+.cloud {
+    font-family: Almoni, Neutra;
+    display: inline;
+    list-style-type: none;
+
+    li {
+        list-style: none;
+        display: inline;
+    }
+}
+
+.infoFooter {
+    text-align: center;
+    font-family: Neutra;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .tags {
+        color: white
+    }
+}
+
+.whyCome {
+    display: flex;
+    justify-content: center;
+
+    .contentWrapper {
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .box4 {
+            font-family: Almoni, Neutra;
+
+            a {
+                text-decoration: none;
+                color: white;
+
+                &:hover {
+                    color: #41709c;
+                }
+            }
+        }
+    }
+
+    font-family: Almoni;
+    text-align: center;
+    color:white;
+    background-image: url(../img/why-bg.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    .whyButton {
+        background-color: #e0a64f;
+    }
+
+    .row {
+        display: flex;
+    }
+}
+
+.whyComeBox {
+    background-color: rgba($color: #41709c, $alpha: .9);
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.about {
+    background-color: white;
+}
+
+.registration {
+    background-image: url(../img/form-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    justify-content: center;
+}
+
+.formWrapper {
+    background-image: url(../img/form-blank-2.png);
+    display: flex;
+    flex-direction: row;
+
+    .formRight {
+
+        h2,
+        h3 {
+            font-family: Almoni;
+            color: #605d5e;
+            text-align: center;
+        }
+    }
+
+    .nameWrapper:before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f007";
+        padding-left: 10px;
+    }
+
+    .emailWrapper:before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f1fa";
+        padding-left: 10px;
+    }
+
+    .phoneWrapper:before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f095";
+        padding-left: 10px;
+    }
+
+    .msgWrapper:before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f044";
+        padding-left: 10px;
+    }
+
+    .formBlock {
+        border-bottom: 1px solid #605d5e;
+    }
+
+    input {
+        font-family: Almoni;
+        color: #605d5e;
+        border: none;
+    }
+
+    .nameWrapper:before {
+        color: #605d5e;
+    }
+
+    .formTel {
+        color: #e0a64f
+    }
+}
+
+.footer {
+    background-image: url(../img/footer-bg-2.png);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    color: #e0a64f;
+    font-family: Almoni;
+
+    ul {
+        display: flex;
+    }
+}
+
+.footerCR {
+    display: flex;
+    flex-direction: column;
+    color: #605d5e;
+}
+
+.footerSocial {
+    border-bottom: 1px solid #605d5e;
+
+    a {
+        text-decoration: none;
+        color: #e0a64f;
+
+        &:hover {
+            color: #a57a3a;
+        }
+    }
+}
+
+.footerMap a {
+    color: #e0a64f;
+    text-decoration: none;
+
+    &:hover {
+        color: #a57a3a;
+    }
+}
+
+.footerItem {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+@import 'large';
+@import 'medium';
+@import 'mobile';
